@@ -55,6 +55,10 @@ button {
   transition: var(--transition);
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 .main-container {
   display: flex;
   flex-direction: column;
