@@ -81,8 +81,12 @@ button {
 
 /* Scoreboard */
 
-.tries {
+/* .tries {
   background-image: url('../images/liveHeart.png');
+} */
+
+.hide {
+    display: none;
 }
 
 /* Phrase */
@@ -103,6 +107,8 @@ button {
 }
 
 .show {
+  transition-duration: .5s;
+  transform: rotateY(360deg);
   color: #000;
   background-color: #76CE82;
 }
